@@ -6,15 +6,6 @@ sudo apt-get update -y
 
 sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20
 
-# echo "mongodb-org hold" | sudo dpkg --set-selections
-# echo "mongodb-org-server hold" | sudo dpkg --set-selections
-# echo "mongodb-org-shell hold" | sudo dpkg --set-selections
-# echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
-# echo "mongodb-org-tools hold" | sudo dpkg --set-selections
-#
-# sudo systemctl start mongod
-# sudo systemctl status mongod
-# sudo systemctl enable mongod
 
 sudo sed -i "s,\\(^[[:blank:]]*bindIp:\\) .*,\\1 0.0.0.0," /etc/mongod.conf
 sudo systemctl start mongod
