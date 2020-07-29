@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/ubuntu/app":{"guestpath":"/home/ubuntu/app","hostpath":"C:/Users/Ib_Bo/Documents/Sparta Vagrant/multi-machine-start-code/starter_code/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Ib_Bo/Documents/Sparta Vagrant/multi-machine-start-code/starter_code","disabled":false,"__vagrantfile":true}}}
